@@ -24,4 +24,5 @@ body {
 
 .header-section-2 {
     grid-area: header-1;
+    justify-content: flex-end;
 }
