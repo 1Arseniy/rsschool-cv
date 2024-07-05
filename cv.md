@@ -4,15 +4,15 @@
 
 # My Contacts
 
-* Address: C.October st. Gomel, Belarus 
+* Address: C.October st. Gomel, Belarus
 * Phone: +375296780584
 * E-mail: krutoi.arseniy@gmail.com
 * LinkedIn: Arseniy Krutoy
 * GitHub: 1Arseniy
 
-# About me 
+# About me
 
-I know HTML and CSS now.I learn JS now. 
+I know HTML and CSS now.I learn JS now.
 
 # Skills
 
@@ -34,4 +34,4 @@ I know HTML and CSS now.I learn JS now.
 # Languages 
 * Russian
 * Belorusian
-* English(A2) 
+* English(A2)
