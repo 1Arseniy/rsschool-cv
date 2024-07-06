@@ -27,18 +27,21 @@
 }
 
 .main {
+    color: #383837;
     background: #969696;
     grid-area: main;
     display: grid;
     grid-template-columns: 1fr, 2fr;
     grid-template-rows: 1fr, 1fr;
     column-gap: 30px;
+    row-gap: 50px;
     grid-template-areas: 
     "section-1 section-2"
     "section-3 section-4"
     "section-5 section-6"
     "section-7 section-8"
-    "section-9 section-10";
+    "section-9 section-10"
+    "section-11 section-12";
 }
 
 .footer {
@@ -59,14 +62,14 @@
 }
 
 .header-img {
-    margin: 10px 0;
+    margin: 20px 0;
     height: 200px;
     width: 200px;
     border-radius: 100%;
 }
 
 .header-div-2 { 
-    color: #969696;
+    color: #fff;
     grid-area: section-2;
     display: flex;
     align-items: flex-start;
@@ -84,7 +87,7 @@
 }
 
 .header-div-3 {
-    display: block;
+    color: #383837;
     grid-area: section-3;
     display: flex;
     justify-content: space-between;
@@ -94,7 +97,6 @@
 }
 
 .main-div-1 {
-    background-color: #4a4a49;
     font-weight: 600;
     grid-area: section-1;
     display: flex;
@@ -113,7 +115,6 @@
 .main-div-3 {
     font-weight: 600;
     padding: 0 15px;
-    background-color: #4a4a49;
     grid-area: section-3;
     display: flex;
     justify-content: flex-end;
@@ -129,7 +130,6 @@
 .main-div-5 {
     font-weight: 600;
     padding: 0 15px;
-    background-color: #4a4a49;
     grid-area: section-5;
     display: flex;
     justify-content: flex-end;
@@ -143,7 +143,6 @@
 .main-div-7 {
     font-weight: 600;
     padding: 0 15px;
-    background-color: #4a4a49;
     grid-area: section-7;
     display: flex;
     align-items: center;
@@ -159,24 +158,44 @@
 }
 
 .main-link {
+    font-weight: 600;
+    color: #383837; 
     text-decoration: none;
     margin: 15px 0;
-    color: #e5e1e1;
-    
+}
+
+.main-link-2 {
+    text-decoration: none;
+    font-weight: 600;
+    color: #383837; 
 }
 
 .main-div-9 {
     font-weight: 600;
     padding: 0 15px;
-    background: #4a4a49;
     grid-area: section-9;
     display: flex;
     justify-content: flex-end;
-   
+    align-items: center;
 }
 
 .main-div-10 {
+    padding: 15px 0;
     grid-area: section-10;
+}
+
+.main-div-11 {
+    padding: 15px 0;
+    font-weight: 600;
+    grid-area: section-11;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.main-div-12 {
+    grid-area: section-12;
+    display: flex;
+    align-items: center;
 }
 
 .footer-nav {
@@ -202,6 +221,7 @@
 }
 
 .footer-div {
+    color: #fff;
     grid-area: section-2;
     display: flex;
     justify-content: center;
